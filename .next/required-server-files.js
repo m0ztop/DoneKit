@@ -92,6 +92,7 @@ self.__SERVER_FILES_MANIFEST={
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -295,7 +296,7 @@ self.__SERVER_FILES_MANIFEST={
     "turbopack": {
       "root": "/Users/mert.oeztopkara/Desktop/Desktop/Help center"
     },
-    "distDirRoot": ".next"
+    "distDirRoot": "dist"
   },
   "appDir": "/Users/mert.oeztopkara/Desktop/Desktop/Help center",
   "relativeAppDir": "",

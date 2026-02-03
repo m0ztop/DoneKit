@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
+  distDir: 'dist',
   images: {
-    unoptimized: true, // For creating static export if needed, or simple local dev
+    unoptimized: true,
   },
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 import logoImage from './logo.png';
 
 /**
@@ -8,10 +8,11 @@ import logoImage from './logo.png';
  */
 export const Logo: React.FC = () => {
   return (
-    <img 
-      src={logoImage} 
-      alt="DoneKit Logo" 
-      className="h-10 w-auto rounded-[13px] object-contain" 
+    <Image
+      src={logoImage}
+      alt="DoneKit Logo"
+      height={40}
+      className="w-auto rounded-[13px] object-contain"
     />
   );
 };

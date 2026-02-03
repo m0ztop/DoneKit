@@ -1,0 +1,9 @@
+name = "donekit-landing"
+compatibility_date = "2024-02-03"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
+output_dir = "dist"
